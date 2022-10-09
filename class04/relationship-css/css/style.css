@@ -1,0 +1,18 @@
+h1 {
+    color: purple;
+}
+
+/*Make only "World" and "Zebra" within the section h2*/
+section > h2 {
+    color: blue;
+}
+
+/*Make "Unicorn" and "Duck" red*/
+article > h2 {
+    color: red;
+}
+
+/*Make only "Unicorn" text orange*/
+section article h2 {
+    color: orange;
+}
